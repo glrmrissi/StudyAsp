@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DevUser\\source\\repos\\TrySql\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC308F38-55F5-4C07-9F26-622B6939262D}|TrySql\\TrySql.csproj|c:\\users\\devuser\\source\\repos\\trysql\\trysql\\model\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC308F38-55F5-4C07-9F26-622B6939262D}|TrySql\\TrySql.csproj|solutionrelative:trysql\\model\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC308F38-55F5-4C07-9F26-622B6939262D}|TrySql\\TrySql.csproj|c:\\users\\devuser\\source\\repos\\trysql\\trysql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC308F38-55F5-4C07-9F26-622B6939262D}|TrySql\\TrySql.csproj|solutionrelative:trysql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC308F38-55F5-4C07-9F26-622B6939262D}|TrySql\\TrySql.csproj|c:\\users\\devuser\\source\\repos\\trysql\\trysql\\model\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC308F38-55F5-4C07-9F26-622B6939262D}|TrySql\\TrySql.csproj|solutionrelative:trysql\\model\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC308F38-55F5-4C07-9F26-622B6939262D}|TrySql\\TrySql.csproj|c:\\users\\devuser\\source\\repos\\trysql\\trysql\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC308F38-55F5-4C07-9F26-622B6939262D}|TrySql\\TrySql.csproj|solutionrelative:trysql\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC308F38-55F5-4C07-9F26-622B6939262D}|TrySql\\TrySql.csproj|c:\\users\\devuser\\source\\repos\\trysql\\trysql\\context\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC308F38-55F5-4C07-9F26-622B6939262D}|TrySql\\TrySql.csproj|solutionrelative:trysql\\context\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC308F38-55F5-4C07-9F26-622B6939262D}|TrySql\\TrySql.csproj|c:\\users\\devuser\\source\\repos\\trysql\\trysql\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FC308F38-55F5-4C07-9F26-622B6939262D}|TrySql\\TrySql.csproj|solutionrelative:trysql\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DevUser\\source\\repos\\TrySql\\TrySql\\appsettings.json",
+              "RelativeDocumentMoniker": "TrySql\\appsettings.json",
+              "ToolTip": "C:\\Users\\DevUser\\source\\repos\\TrySql\\TrySql\\appsettings.json",
+              "RelativeToolTip": "TrySql\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-13T20:38:19.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DevUser\\source\\repos\\TrySql\\TrySql\\Program.cs",
+              "RelativeDocumentMoniker": "TrySql\\Program.cs",
+              "ToolTip": "C:\\Users\\DevUser\\source\\repos\\TrySql\\TrySql\\Program.cs",
+              "RelativeToolTip": "TrySql\\Program.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAApwHgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T20:33:23.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\DevUser\\source\\repos\\TrySql\\TrySql\\Context\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "TrySql\\Context\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\DevUser\\source\\repos\\TrySql\\TrySql\\Context\\AppDbContextFactory.cs",
+              "RelativeToolTip": "TrySql\\Context\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T18:53:37.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DevUser\\source\\repos\\TrySql\\TrySql\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TrySql\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\DevUser\\source\\repos\\TrySql\\TrySql\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "TrySql\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T18:12:28.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\DevUser\\source\\repos\\TrySql\\TrySql\\Model\\Categoria.cs",
+              "RelativeDocumentMoniker": "TrySql\\Model\\Categoria.cs",
+              "ToolTip": "C:\\Users\\DevUser\\source\\repos\\TrySql\\TrySql\\Model\\Categoria.cs",
+              "RelativeToolTip": "TrySql\\Model\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T02:17:04.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Produtos.cs",
+              "DocumentMoniker": "C:\\Users\\DevUser\\source\\repos\\TrySql\\TrySql\\Model\\Produtos.cs",
+              "RelativeDocumentMoniker": "TrySql\\Model\\Produtos.cs",
+              "ToolTip": "C:\\Users\\DevUser\\source\\repos\\TrySql\\TrySql\\Model\\Produtos.cs",
+              "RelativeToolTip": "TrySql\\Model\\Produtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T02:16:54.124Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

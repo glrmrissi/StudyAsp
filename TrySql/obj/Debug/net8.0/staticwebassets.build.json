@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3Vh6BLBiLkdMJ20FciO3+RQeMQrswqJuxlP8CG7wpLc=",
+  "Source": "TrySql",
+  "BasePath": "_content/TrySql",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
