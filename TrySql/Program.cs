@@ -50,7 +50,6 @@ app.MapPost("/produtos", async (Produtos produto, AppDbContext db) =>
 #endregion
 
 #region Get Categoria List
-
 app.MapGet("/categorias", async (AppDbContext db) =>
 {
     return await db.Categorias
@@ -72,8 +71,7 @@ app.MapGet("/categorias/{id:int}", async (int id, AppDbContext db) =>
 
 #endregion 
 
-#region Get Produto
-
+#region Get Produtos 
 app.MapGet("/produtos/{id:int}", async (int id, AppDbContext db) =>
 {
     return await db.Produtos.FindAsync(id)
@@ -81,9 +79,9 @@ app.MapGet("/produtos/{id:int}", async (int id, AppDbContext db) =>
                      ? Results.Ok(produto)
                       : Results.NotFound();
 });
-
 #endregion 
 
+#region Put Categoria
 app.MapPut("categorias/{id:int}", async (int id, Categoria categoria, AppDbContext db) =>
 {
     if (categoria.CategoriaId != id)
@@ -91,9 +89,9 @@ app.MapPut("categorias/{id:int}", async (int id, Categoria categoria, AppDbConte
         return Results.BadRequest();
     }
 
-    var categoriaDb = await db.Categorias.FindAsync();
+    var categoriaDb = await db.Categorias.FindAsync(id);
 
-    if (categoriaDb != null) return Results.NotFound();
+    if (categoriaDb is null) return Results.NotFound();
 
     // categoriaDb.CategoriaId = categoria.CategoriaId;
     categoriaDb.CategoriaNome = categoria.CategoriaNome;
@@ -103,6 +101,9 @@ app.MapPut("categorias/{id:int}", async (int id, Categoria categoria, AppDbConte
     return Results.Ok(categoriaDb);
 });
 
+#endregion
+
+#region Put Produtos
 app.MapPut("produtos/{id:int}", async (int id, Produtos produto, AppDbContext db) =>
 {
     if (produto.ID != id)
@@ -110,9 +111,9 @@ app.MapPut("produtos/{id:int}", async (int id, Produtos produto, AppDbContext db
         return Results.BadRequest();
     }
 
-    var produtoDb = await db.Produtos.FindAsync();
+    var produtoDb = await db.Produtos.FindAsync(id);
 
-    if (produtoDb != null) return Results.NotFound();
+    if (produtoDb is null) return Results.NotFound();
 
     produtoDb.Nome = produto.Nome;
     produtoDb.Descricao = produto.Descricao;
@@ -125,7 +126,37 @@ app.MapPut("produtos/{id:int}", async (int id, Produtos produto, AppDbContext db
     await db.SaveChangesAsync();
     return Results.Ok(produtoDb);
 });
+#endregion
 
+#region Delete Categorias
+app.MapDelete("categorias/{id:int}", async (int id, AppDbContext db) =>
+{
+    var categoriaDb = await db.Categorias.FindAsync(id);
+    if (categoriaDb is not null)
+    {
+        db.Categorias.Remove(categoriaDb);
+        await db.SaveChangesAsync();
+    }
+
+    return Results.NoContent();
+
+});
+#endregion 
+
+#region Delete Produtos
+app.MapDelete("produtos/{id:int}", async (int id, AppDbContext db) =>
+{
+    var produtoDb = await db.Produtos.FindAsync(id);
+    if (produtoDb is not null)
+    {
+        db.Produtos.Remove(produtoDb);
+        await db.SaveChangesAsync();
+    }
+
+    return Results.NoContent();
+
+});
+#endregion
 app.UseCors("AllowAllOrigins");
 
 app.UseAuthorization();

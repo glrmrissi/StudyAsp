@@ -16,7 +16,7 @@ namespace TrySql.Context
             mb.Entity<Produtos>().HasKey(c => c.ID);
             mb.Entity<Produtos>().Property(c => c.Nome).HasMaxLength(100).IsRequired();
             mb.Entity<Produtos>().Property(c => c.Descricao).HasMaxLength(150);
-            mb.Entity<Produtos>().Property(c => c.ImagemUrl).HasMaxLength(100);
+            mb.Entity<Produtos>().Property(c => c.ImagemUrl).HasMaxLength(200);
             mb.Entity<Produtos>().Property(c => c.Preco).HasPrecision(14, 2);
 
             mb.Entity<Categoria>().HasKey(c => c.CategoriaId);

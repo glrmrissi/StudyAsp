@@ -176,3 +176,4 @@ C:\Users\DevUser\source\repos\TrySql\trysql\obj\Debug\net8.0\TrySql.pdb
 C:\Users\DevUser\source\repos\TrySql\trysql\obj\Debug\net8.0\TrySql.genruntimeconfig.cache
 C:\Users\DevUser\source\repos\TrySql\trysql\obj\Debug\net8.0\ref\TrySql.dll
 C:\Users\DevUser\source\repos\TrySql\TrySql\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\DevUser\source\repos\TrySql\TrySql\obj\Debug\net8.0\TrySql.sourcelink.json

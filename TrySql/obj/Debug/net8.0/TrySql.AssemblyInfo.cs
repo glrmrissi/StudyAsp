@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrySql")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b09b20beec2be177b70dea71379f8cc7c37933c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrySql")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrySql")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
